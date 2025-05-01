@@ -10,7 +10,7 @@ def speak(text, filename="response.mp3"):
 
     # Convert the given text to speech using gTTS
     # 'lang' can be set to 'rw' for Kinyarwanda or 'en' for English
-    tts = gTTS(text=text, lang='en')  # Change to 'rw' if using Kinyarwanda
+    tts = gTTS(text=text, lang='sw')  # Change to 'rw' if using Kinyarwanda
 
     # Save the generated speech audio to a file
     tts.save(filename)
